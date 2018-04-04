@@ -78,7 +78,7 @@ For Mac:
 
 For Windows:
 
-    TBD
+    Download ta-lib-0.4.0-msvc.zip and unzip to C:\ta-lib
 
 For Linux:
 
