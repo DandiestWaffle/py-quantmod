@@ -79,11 +79,16 @@ For Mac:
 For Windows:
 
     Download ta-lib-0.4.0-msvc.zip and unzip to C:\ta-lib
-    https://sourceforge.net/projects/ta-lib/files/ta-lib/0.4.0/ta-lib-0.4.0-msvc.zip
+
+  https://sourceforge.net/projects/ta-lib/files/ta-lib/0.4.0/ta-lib-0.4.0-msvc.zip
 
 For Linux:
 
-    TBD
+    Download ta-lib-0.4.0-src.tar.gz and:
+    $ untar and cd
+    $ ./configure --prefix=/usr
+    $ make
+    $ sudo make install
 
 Then install the Python library:
 
