@@ -80,6 +80,27 @@ For Windows:
 
     Download ta-lib-0.4.0-msvc.zip and unzip to C:\ta-lib
   https://sourceforge.net/projects/ta-lib/files/ta-lib/0.4.0/ta-lib-0.4.0-msvc.zip
+  
+    Download and Install Visual Studio Community 2015/2017 (Remember to Select [Visual C++] Feature)
+
+	Build TA-Lib Library
+
+		Start [VS2015 x64 Native Tools Command Prompt]
+
+		Move toC:\ta-lib\c\make\cdr\win32\msvc by running in Command Prompt:
+		
+		cd C:\ta-lib\c\make\cdr\win32\msvc
+
+		Build the Library by running in Command Prompt:
+		
+		nmake
+
+	Pip Install TA-Lib Library 
+	
+		start cmd.exe and pip install python TA-Lib by running 
+		
+		python -m pip install TA-Lib
+
 
 For Linux:
 
