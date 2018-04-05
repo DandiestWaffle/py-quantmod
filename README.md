@@ -10,6 +10,15 @@ A powerful financial charting library based on R's Quantmod.
 
 Quantmod makes creating interactive financial charts easy and intuitive. Furthermore, Quantmod has over 50 technical indicators built-in, in addition to a variety of technical and quantitative financial tools.
 
+## Installation
+
+Install:
+
+	python -m pip install https://github.com/chellowlolo/py-quantmod/zipball/master
+	(note: appending /zipball/master to repo url allow pip install to work on windows) 
+
+Ta-Lib is additionally required for technical indicator support.
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/jackwluo/py-quantmod/master/assets/demo.gif"><br><br>
 </div>
@@ -49,18 +58,6 @@ Tick data acquisition for past month (via built-in scraping) coming soon.
 #### Theming engine
 
 Choose from included Quantmod themes or design your own to customize chart appearance.
-
-## Installation
-
-Install from PyPI:
-
-    pip install quantmod
-
-Or build package from source:
-
-    python setup.py install
-
-Ta-Lib is additionally required for technical indicator support.
 
 ### Dependencies
 
